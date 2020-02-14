@@ -27,5 +27,5 @@ class usuario{
 		int getEdad() { return edad; };
 		double getDinero() { return dinero; };
 		libro* getLibro() { return lista; };
-		
+		//~usuario(){ delete libro };		
 };
